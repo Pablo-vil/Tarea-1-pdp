@@ -6,7 +6,6 @@ class Player:
         name = input("Enter player name: ")
         self.name = name
 
-
     def get_name(self) -> str:
         return self.name
     

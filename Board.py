@@ -25,15 +25,17 @@ class Board:
             leters = ["c", "l", "m", "l", "m"]
             numbers = [f"{number:02}" for number in range(1,20)]
             letra = random.choice(leters)
-            tipo= random.choice(leters)
-            return tipo + letra
+            localizacion = random.choice(numbers)
+            return letra + localizacion
 
         self.tiles.append(Tile(id="d19", material="desierto", edges={"top": random_tile, "top-right": random_tile(), "right": random_tile(), "bottom_right": random_tile(), "bottom": random_tile(), "bottom_left": random_tile(), "left": random_tile(), "top_left": random_tile()}))
-
-        #crear e implementar mapa aleatorio
+        # implementar el checkeo de tiles colindantes
         pass
 
     def validate_map(self):
-
+        if (
+            self.tiles.append(Tile(id="d19", material="desierto"))
+            ):
+            pass
         #validar mapa aleatorio e importado
         pass
