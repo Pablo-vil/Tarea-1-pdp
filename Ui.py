@@ -1,4 +1,4 @@
-from rich.console import Console
+from rich.console import Console, print
 from PIL import Image
 from Board import Board
 
@@ -8,4 +8,4 @@ class Ui:
 
     def Show_board(self, board: Board):
         #Muestra el tablero
-        self.console.print("hola")
+        self.print("Hola")
